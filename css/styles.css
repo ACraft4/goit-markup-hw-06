@@ -621,7 +621,7 @@ h6 {
   position: relative;
   overflow: hidden;
 }
-
+/* MODAL FORM */
 .backdrop {
   position: fixed;
   height: 100vh;
@@ -664,4 +664,21 @@ h6 {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+.modal-form {
+  padding: 40px;
+}
+.modal-form-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 12px;
+}
+.modal-form-field {
+  margin-bottom: 10px;
+}
+.modal-form-checkbox {
+  margin-bottom: 30px;
 }
